@@ -90,7 +90,6 @@ class Parser {
 <law>
     <structure>
         <unit label="title" identifier="{$section['section_id']}" order_by="{$section['section_id']}" level="1">{$section['section']}</unit>
-        <unit label="capter" identifier="$index" order_by="$index" level="1">{$data['title']}</unit>
     </structure>
     <section_number>$type_id</section_number>
     <catch_line>$catch_line</catch_line>
