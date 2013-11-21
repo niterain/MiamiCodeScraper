@@ -91,7 +91,7 @@ class Parser {
     <structure>
         <unit label="title" identifier="{$section['section_id']}" order_by="{$section['section_id']}" level="1">{$section['section']}</unit>
     </structure>
-    <section_number>$type_id</section_number>
+    <section_number>{$section['section_id']}</section_number>
     <catch_line>$catch_line</catch_line>
     <order_by>000000$section_id</order_by>
     <text>
